@@ -1,0 +1,246 @@
+html {
+    scroll-behavior: smooth;
+  }
+.header-formation {
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.navigator {
+    z-index: 999999;
+}
+.header-x {
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+    background: url('https://i.imgur.com/QdJsF2C.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid rgb(0, 155, 216);
+}
+
+.atronik>.separator::before, .atronik>.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.separator::before {
+    margin-right: .30em;
+    margin-left: .30em;
+}
+.separator::after {
+    margin-left: .30em;
+    margin-right: .30em;
+}
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #FAFAFA;
+}
+
+.carousel-cell {
+  width: 400px;
+  height: 600px;
+  margin-right: 10px;
+  padding : 20px;
+  background: rgb(232, 254, 255);
+  border-radius: 5px;
+  border-bottom: 4px solid #0084ff;
+}
+
+.carousel-content {
+  color: #0084ff;
+}
+
+.atronik {
+    color: #FAFAFA;
+    background-color: #0084ff;
+    width: 100%;
+    padding: 30px;
+}
+.atronik-a {
+    width: 100%;
+    padding: 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.pardesc {
+    color: #111;
+    margin: 10px 20px 0px 20px;
+    font-size: 24px;
+    height: 200px;
+}
+.myhr {
+    border: 1px solid #0084ff;
+    margin: 0px 20px 0px 20px;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-x {
+        padding: 30px;
+        padding-top: 60px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-x {
+        padding: 40px;
+        padding-top: 80px;
+    }
+    .header-formation {
+        border: 3px solid white;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header-x {
+        padding: 50px;
+        padding-top: 100px;
+    }
+    .header-formation {
+        border: 4px solid white;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header-x {
+        padding: 70px;
+        padding-top: 140px;
+    }
+    .header-formation {
+        border: 4px solid white;
+    }
+}
+
+/* Instagram feed */
+
+.insta-container {
+    max-width: 1218px;
+    margin: 0 auto;
+}
+
+#instagramFeed {
+    height: calc(100vw / 3 - 180px);
+    min-height: 300px;
+}
+
+#instagramFeedDesc {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#instagramFeedDesc .title a {
+    color: #ee52b2;
+}
+
+
+.d-md-flex {
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .d-md-flex {
+        text-align: unset;
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.insta-carousel-cell {
+    width: calc(100vw / 3 - 180px);
+    min-width: 350px;
+    height: 100%;
+    margin-right: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+.Instafeed--item {
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Instafeed--item .Instafeed--thumbnail {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.Instafeed--item:hover .Instafeed--Caption--overlay {
+    visibility: visible;
+    top: 0;
+    z-index: 99;
+}
+
+.Instafeed--item .Instafeed--Caption--overlay {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    visibility: hidden;
+    top: 100%;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(13, 76, 105, 0.7);
+}
+
+.Instafeed--item .Instafeed--Caption--overlay .Instafeed--LikeCount svg {
+    fill: #FFF;
+    margin-right: 8px;
+    width: 17px;
+    height: 15px;
+    vertical-align: sub;
+}
+
+.Instafeed--item .Instafeed--Caption--overlay .Instafeed--Caption {
+    position: relative;
+    height: calc(100% - 70px);
+    margin: 20px 0;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.Instafeed--item .Instafeed--Caption--overlay .Instafeed--LikeCount,
+.Instafeed--item .Instafeed--Caption--overlay .Instafeed--Caption,
+.Instafeed--item .Instafeed--Caption--overlay time {
+    color: #FFF;
+}
+
+.Instafeed--item .Instafeed--Caption--overlay time {
+    position: absolute;
+    bottom: 20px;
+    text-transform: uppercase;
+}
