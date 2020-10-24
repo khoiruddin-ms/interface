@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="200px" height="200px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 200 200"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil1 {fill:#0084FF}
+    .fil3 {fill:#009933}
+    .fil2 {fill:#99FFFF}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M100.91 37.59l59.52 0 0 59.52 -35.48 0c-1.67,-12.24 -11.63,-21.85 -24.04,-22.97l0 -36.55z"/>
+   </clipPath>
+   <clipPath id="id1">
+    <path d="M125.02 103.86l51.2 0 0 75.31 -75.31 0 0 -51.8c12.59,-1.14 22.66,-11.01 24.11,-23.51z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="200" height="200"/>
+  <path class="fil1" d="M26.81 30.31l66.81 0 0 44.16c-11.26,2.07 -20.06,11.21 -21.62,22.64l-45.19 0 0 -66.8z"/>
+  <path class="fil1" d="M100.91 37.59l59.52 0 0 59.52 -35.48 0c-1.67,-12.24 -11.63,-21.85 -24.04,-22.97l0 -36.55z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_2335493730896">
+    <polygon id="1" class="fil2" points="118.25,82.78 160.43,37.59 97,32 100.91,74.14 "/>
+   </g>
+  </g>
+  <path class="fil0" d="M100.91 37.59l59.52 0 0 59.52 -35.48 0c-1.67,-12.24 -11.63,-21.85 -24.04,-22.97l0 -36.55z"/>
+  <path class="fil1" d="M32.89 103.86l39.05 0c1.35,11.69 10.24,21.07 21.68,23.18l0 37.56 -60.73 0 0 -60.74z"/>
+  <path class="fil1" d="M125.02 103.86l51.2 0 0 75.31 -75.31 0 0 -51.8c12.59,-1.14 22.66,-11.01 24.11,-23.51z"/>
+  <g style="clip-path:url(#id1)">
+   <g id="_2335493729168">
+    <polygon id="1" class="fil2" points="176.22,179.17 117.29,119.73 123,102 176.22,103.86 "/>
+   </g>
+  </g>
+  <path class="fil0" d="M125.02 103.86l51.2 0 0 75.31 -75.31 0 0 -51.8c12.59,-1.14 22.66,-11.01 24.11,-23.51z"/>
+  <circle class="fil3" cx="98.48" cy="100.76" r="21.52"/>
+ </g>
+</svg>
