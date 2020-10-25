@@ -182,10 +182,7 @@ body { font-family: sans-serif; }
 }
 
 .Instafeed--item {
-    overflow: hidden;
-    position: relative;
     text-decoration: none;
-    display: inline-block;
 }
 
 .Instafeed--item .Instafeed--thumbnail {
@@ -216,7 +213,7 @@ body { font-family: sans-serif; }
 }
 
 .Instafeed--item .Instafeed--Caption--overlay .Instafeed--LikeCount svg {
-    fill: #FFF;
+    fill: rgb(245, 53, 53);
     margin-right: 8px;
     width: 17px;
     height: 15px;
