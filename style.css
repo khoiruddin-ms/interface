@@ -78,6 +78,7 @@ body { font-family: sans-serif; }
 .atronik-a {
     width: 100%;
     padding: 30px;
+    background-color: #fff !important;
     background-position: left;
     background-repeat: no-repeat;
 }
