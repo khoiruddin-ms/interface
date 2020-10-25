@@ -181,7 +181,7 @@ body { font-family: sans-serif; }
     margin-right: 10px;
     background: rgb(255, 255, 255);
     border-radius: 5px;
-    counter-increment: carousel-cell;
+    padding: 0 !important;
 }
 
 .Instafeed--item {
