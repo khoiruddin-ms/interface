@@ -205,7 +205,8 @@
                 <h2>Ekonomi</h2>
                 <hr class="myhr">
                 <p class="pardesc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at sagittis erat, vel tincidunt nibh. Praesent luctus placerat sem nec rutrum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at sagittis erat, vel tincidunt nibh.
+                    Praesent luctus placerat sem nec rutrum.
                 </p>
             </div>
         </div>
@@ -215,7 +216,8 @@
                 <h2>PSDM</h2>
                 <hr class="myhr">
                 <p class="pardesc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at sagittis erat, vel tincidunt nibh. Praesent luctus placerat sem nec rutrum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at sagittis erat, vel tincidunt nibh.
+                    Praesent luctus placerat sem nec rutrum.
                 </p>
             </div>
         </div>
@@ -229,7 +231,9 @@
                 <h2 class="INTEL">VISI</h2>
             </div>
             <p style="font-size:18px;text-align:justify">
-                Menjadikan UKM Dakwah Kampus Ulil Albab Universitas Muhammadiyah Jakarta sabagai suri tauladan dalam menciptakan kampus yang Islami, membentuk kader yang  Religius, serta memiliki kekokohan Spiritualitas, Intelektualitas dan  Profesionalitas.
+                Menjadikan UKM Dakwah Kampus Ulil Albab Universitas Muhammadiyah Jakarta sabagai suri tauladan dalam
+                menciptakan kampus yang Islami, membentuk kader yang Religius, serta memiliki kekokohan Spiritualitas,
+                Intelektualitas dan Profesionalitas.
             </p>
         </div>
     </div>
@@ -240,13 +244,15 @@
             </div>
             <ol style="font-size:18px;text-align:justify">
                 <li>Mengorientasikan pemahaman kader terhadap pentingnya dakwah.</li>
-                <li>Mendakwahkan Islam secara kafah  sesuai Al-Quran dan Hadist.</li>
+                <li>Mendakwahkan Islam secara kafah sesuai Al-Quran dan Hadist.</li>
                 <li>Berfikir Global, bertindak lokal.</li>
                 <li>Pengelolaan lembaga dakwah kampus yang professional.</li>
                 <li>Melakukan pembinaan yang intensif, terarah dan komprehensif.</li>
-                <li>Menciptakan kader yang berafiliasi terhadap Islam dan mengoptimalisasikan peran kampus dalam proses transformasi masyarakat menuju masyarakat madani.</li>
+                <li>Menciptakan kader yang berafiliasi terhadap Islam dan mengoptimalisasikan peran kampus dalam proses
+                    transformasi masyarakat menuju masyarakat madani.</li>
                 <li>Menciptakan budaya dan kondisi yang Islami.</li>
-                <li>Menjalin silaturrahmi dengan civitas akademika UMJ  dan lembaga lain, baik internal maupun eksternal.</li>
+                <li>Menjalin silaturrahmi dengan civitas akademika UMJ dan lembaga lain, baik internal maupun eksternal.
+                </li>
                 <li>Membangun informasi yang dapat mempermudah jalannya dakwah dan menciptakan kemandirian.</li>
                 <li>Melakukan kegiatan yang dapat menjadi daya tarik, dapat mengembangkan minat dan bakat.</li>
             </ol>
@@ -273,23 +279,25 @@
             <p style="font-size:18px;text-align:justify">
                 Gabung ke LDK ULIL ALBAB Sekarang!
             </p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdz3UNKgrEsqQZq_Gqqw8SIh4qPn-I8S11cr_q56PSRKbaaRA/viewform" class="w3-button w3-white w3-padding w3-block" target="_BLANK">Gabung!</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdz3UNKgrEsqQZq_Gqqw8SIh4qPn-I8S11cr_q56PSRKbaaRA/viewform"
+                class="w3-button w3-white w3-padding w3-block" target="_BLANK">Gabung!</a>
         </div>
     </div>
     <!-- Instagram Feed -->
-    <div style="height: 500px;">
+    <div style="height: 700px;">
         <div class="separator">
             <h2 style="color:#0084ff">Instagram kami!</h2>
         </div>
         <div id="instagramFeed" class="instagram-feed-wrapper"></div>
-    <div class="insta-container" id="instagramFeedDesc">
-        <div class="d-md-flex">
-            <h2 class="title instagram-text">Ikuti Jejak Kami!</h2>
-            <a href="https://www.instagram.com/ldkulilalbabumj/" class="w3-btn w3-padding blued instagram-button" target="_blank" rel="noopener">Follow</a>
+        <div class="insta-container" id="instagramFeedDesc">
+            <div class="d-md-flex">
+                <h2 class="title instagram-text">Ikuti Jejak Kami!</h2>
+                <a href="https://www.instagram.com/ldkulilalbabumj/" class="w3-btn w3-padding blued instagram-button"
+                    target="_blank" rel="noopener">Follow</a>
+            </div>
         </div>
-    </div>
-    <script id="instagram-template" type="text/x-handlebars-template">
-    <a href="{{link}}" class="carousel-cell insta-carousel-cell Instafeed--item" rel="nofollow noopener" target="_blank">
+        <script id="instagram-template" type="text/x-handlebars-template">
+            <a href="{{link}}" class="carousel-cell insta-carousel-cell Instafeed--item" rel="nofollow noopener" target="_blank">
         <img src="{{image_url}}" class="Instafeed--thumbnail" />
         <div class="Instafeed--Caption--overlay">
             <span class="Instafeed--LikeCount"><svg class="Icon Icon--heart" viewBox="0 0 17 15" role="presentation">
@@ -302,94 +310,105 @@
         </div>
     </a>
     </script>
-    <script charset="utf-8">
-        (function ($) {
-            $(window).on('load', function () {
-                var limit = 20;
-                $.instagramFeed({
-                    'username': 'ldkulilalbabumj',
-                    'get_data': true,
-                    'callback': function (data) {
-                        let instaData = data.edge_owner_to_timeline_media.edges;
-                        instaData.slice(0, limit).filter(x => x.node.edge_media_to_caption.edges.length > 0)
-                            .forEach(item => {
-                                let node = item.node;
-                                let source = $("#instagram-template").html();
-                                let template = Handlebars.compile(source);
-                                let taken = new Date(node.taken_at_timestamp * 1000)
-                                    .toDateString().substr(4);
-                                //change format to month date,year
-                                let created = taken.slice(0, 6) + ',' + taken.slice(6);
-                                let context = {
-                                    link: "https://www.instagram.com/p/" + node
-                                        .shortcode + "/",
-                                    image_url: node.display_url,
-                                    countLikes: node.edge_liked_by.count,
-                                    caption: node.edge_media_to_caption.edges[0].node
-                                        .text,
-                                    created: created
-                                };
-                                let html = template(context);
-                                $("#instagramFeed").append(html);
+        <script charset="utf-8">
+            (function ($) {
+                $(window).on('load', function () {
+                    var limit = 20;
+                    $.instagramFeed({
+                        'username': 'ldkulilalbabumj',
+                        'get_data': true,
+                        'callback': function (data) {
+                            let instaData = data.edge_owner_to_timeline_media.edges;
+                            instaData.slice(0, limit).filter(x => x.node.edge_media_to_caption
+                                    .edges.length > 0)
+                                .forEach(item => {
+                                    let node = item.node;
+                                    let source = $("#instagram-template").html();
+                                    let template = Handlebars.compile(source);
+                                    let taken = new Date(node.taken_at_timestamp * 1000)
+                                        .toDateString().substr(4);
+                                    //change format to month date,year
+                                    let created = taken.slice(0, 6) + ',' + taken.slice(6);
+                                    let context = {
+                                        link: "https://www.instagram.com/p/" + node
+                                            .shortcode + "/",
+                                        image_url: node.display_url,
+                                        countLikes: node.edge_liked_by.count,
+                                        caption: node.edge_media_to_caption.edges[0]
+                                            .node
+                                            .text,
+                                        created: created
+                                    };
+                                    let html = template(context);
+                                    $("#instagramFeed").append(html);
+                                });
+                            $('#instagramFeed').flickity({
+                                cellAlign: 'left',
+                                wrapAround: true,
+                                pageDots: false,
+                                setGallerySize: false,
+                                prevNextButtons: true,
+                                arrowShape: {
+                                    "x0": 20,
+                                    "x1": 60,
+                                    "y1": 40,
+                                    "x2": 60,
+                                    "y2": 35,
+                                    "x3": 25
+                                }
                             });
-                        $('#instagramFeed').flickity({
-                            cellAlign: 'left',
-                            wrapAround: true,
-                            pageDots: false,
-                            setGallerySize: false,
-                            prevNextButtons: true,
-                            arrowShape: { "x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25 }
-                        });
-                    }
+                        }
+                    });
                 });
-            });
-        })(jQuery);
-    </script>
+            })(jQuery);
+        </script>
     </div>
     <!-- Contact Person -->
     <div>
-    <div style="padding: 15px;">
-        <div class="atronik w3-card-4">
-            <h1>Kontak</h1>
-            <hr />
-            <p style="font-size:18px;text-align:justify">
-                Fulan - 08xxxxxxxx<br />
-                email@xys.com
-            </p>
-        </div>
-    </div>
-    <!-- Tim -->
-    <div style="padding: 15px;" id="contact">
-        <div class="separator">
-            <h2>Tim Kami</h2>
-        </div>
-        <div style="padding:10px" class="carousel"
-        data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
-        <div class="carousel-cell w3-card-2">
-            <div class="w3-display-middle carousel-content" style="width: 100%;text-align: center;">
-                <div style="background: url('https://imgur.com/kUdcbiJ.png');background-size:cover;width: 250px;height: 250px;border-radius: 50%;margin: auto;"></div>
-                <h2>Ketua Umum</h2>
-                <hr class="myhr">
-                <h2 class="pardesc">
-                    Firdaus Al-Qodri
-                </ph2>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    
-
-    </div>
-        <div >
-            <div class="atronik" style="margin: 0;"">
-                <h1>&copy; LDK ULIL ALBAB</h1>
+        <div style="padding: 15px;">
+            <div class="atronik w3-card-4">
+                <h1>Kontak</h1>
                 <hr />
                 <p style="font-size:18px;text-align:justify">
-                    UMJ - LDK - UKM
+                    Fulan - 08xxxxxxxx<br />
+                    email@xys.com
                 </p>
             </div>
         </div>
+        <!-- Tim -->
+        <div style="padding: 15px;" id="contact">
+            <div class="separator">
+                <h2>Tim Kami</h2>
+            </div>
+            <div style="padding:10px" class="carousel"
+                data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
+                <div class="carousel-cell w3-card-2">
+                    <div class="w3-display-middle carousel-content" style="width: 100%;text-align: center;">
+                        <div
+                            style="background: url('https://imgur.com/kUdcbiJ.png');background-size:cover;width: 250px;height: 250px;border-radius: 50%;margin: auto;">
+                        </div>
+                        <h2>Ketua Umum</h2>
+                        <hr class="myhr">
+                        <h2 class="pardesc">
+                            Firdaus Al-Qodri
+                            </ph2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div>
+        <div class="atronik" style="margin: 0;"">
+                <h1>&copy; LDK ULIL ALBAB</h1>
+                <hr />
+                <p style=" font-size:18px;text-align:justify">
+            UMJ - LDK - UKM
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>
