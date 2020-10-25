@@ -14,7 +14,6 @@ html {
     z-index: 1;
     height: 100vh;
     width: 100%;
-    background-color: azure;
     background: url('https://i.imgur.com/QdJsF2C.jpg');
     background-size: cover;
     background-position: center;
@@ -177,8 +176,6 @@ body { font-family: sans-serif; }
 .insta-carousel-cell {
     width: 400px !important;
     height: 400px !important;
-    margin-right: 10px;
-    border-radius: 5px;
     padding: 0 !important;
 }
 
